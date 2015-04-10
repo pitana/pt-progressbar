@@ -62,7 +62,6 @@ pt-progressbar {
 /* line 33, pt-progressbar.scss */
 pt-progressbar .progress {
   height: 20px;
-  margin-bottom: 20px;
   overflow: hidden;
   background-color: #f5f5f5;
   border-radius: 4px;
