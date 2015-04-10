@@ -8,17 +8,18 @@ Custom Element for Progressbar ! similar to bootstrap progress bar !
 [Check it live!](http://pitana.github.io/pt-progressbar)
 
 ## Usage
-    ```html
-    <pt-progressbar min="200" max="500" value="340" showStatus striped active>
-    </pt-progressbar>
-    ```
+```html
+<pt-progressbar min="200" max="500" value="340" showStatus striped active></pt-progressbar>
+```
 
 ## Install
 
-    ```sh
-    bower install pt-progressbar
-    ```
+```sh
+bower install pt-progressbar
+```
 ## Options
+
+### Attributes
 
 Attribute         | Options    | Default     | Description
 ---               | ---        | ---         | ---
@@ -32,3 +33,9 @@ Attribute         | Options    | Default     | Description
 `showActualValue` | *boolean*  | `false`     | Show Status in Percentage 32% if present, else show status in text like 350/500
 `intermediate`    | *boolean*  | `false`     | Show Intermediate Progress bar
 
+
+### Methods
+
+Method            | Arguments        | Description
+---               | ---              | ---
+`toggle`          | *attr*           | It toggle boolean attributes. like ele.toggle("active")
