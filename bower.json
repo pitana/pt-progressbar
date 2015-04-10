@@ -1,0 +1,24 @@
+{
+  "name": "pt-progressbar",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pitana/pt-progressbar",
+  "authors": [
+    "Narendra Sisodiya <narendra@narendrasisodiya.com>"
+  ],
+  "description": "pt-progressbar",
+  "main": "src/pt-progressbar.html",
+  "keywords": [
+    "webcomponents",
+    "pitana"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "pitana.js": "~1.0.0"
+  }
+}
