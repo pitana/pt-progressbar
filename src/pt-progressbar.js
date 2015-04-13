@@ -4,8 +4,6 @@
 
 pitana.registerElement(pitana.HTMLElement.extend({
   tagName: "pt-progressbar",
-  events:{
-  },
   template: document._currentScript.ownerDocument.querySelector("template"),
   accessors: {
     active:{
@@ -53,19 +51,10 @@ pitana.registerElement(pitana.HTMLElement.extend({
   initialize: function () {
     pitana.HTMLElement.apply(this, arguments);
   },
-  createdCallback: function () {
-
-  },
   attachedCallback: function () {
     this.bar = this.$.querySelector(".progress-bar");
     this.status = this.$.querySelector("span.status");
     this.render();
-  },
-  detachedCallback: function () {
-    console.log("I am ending " + this.tagName);
-  },
-  attributeChangedCallback: function (attrName, oldVal, newVal) {
-
   },
   render: function () {
     var value = this.$.value;
