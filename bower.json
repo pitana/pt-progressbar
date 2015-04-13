@@ -19,6 +19,6 @@
     "test"
   ],
   "dependencies": {
-    "pitana.js": "~1.0.0"
+    "pitana.js": "~1.0.2"
   }
 }
