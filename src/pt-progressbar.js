@@ -2,7 +2,7 @@
  * Created by narendra on 14/3/15.
  */
 
-pitana.registerElement(pitana.HTMLElement.extend({
+pitana.register({
   tagName: "pt-progressbar",
   template: document._currentScript.ownerDocument.querySelector("template"),
   accessors: {
@@ -48,9 +48,6 @@ pitana.registerElement(pitana.HTMLElement.extend({
       this.$[attr] = !this.$[attr]
     }
   },
-  initialize: function () {
-    pitana.HTMLElement.apply(this, arguments);
-  },
   attachedCallback: function () {
     this.bar = this.$.querySelector(".progress-bar");
     this.status = this.$.querySelector("span.status");
@@ -71,4 +68,4 @@ pitana.registerElement(pitana.HTMLElement.extend({
     this.bar.style.width = p + "%";
     this.status.innerHTML = '<span class="percentage">'+ p +'%</span><span class="value">'+ value + '</span>';
   }
-}));
+});

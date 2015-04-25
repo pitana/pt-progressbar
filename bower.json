@@ -1,6 +1,6 @@
 {
   "name": "pt-progressbar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/pitana/pt-progressbar",
   "authors": [
     "Narendra Sisodiya <narendra@narendrasisodiya.com>"
@@ -19,6 +19,6 @@
     "test"
   ],
   "dependencies": {
-    "pitana.js": "~1.0.2"
+    "pitana.js": "~1.0.3"
   }
 }
